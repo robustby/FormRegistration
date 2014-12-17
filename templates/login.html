@@ -1,0 +1,21 @@
+﻿<head>
+<title>Тестовое задание - Вход</title>
+<link rel="stylesheet" type="text/css" href="templates/css/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="/js/formcheck.js"></script>
+</head>
+<div class="form">
+	<div class="lang" style="p{margin: 0;}">
+		<p>Language: <a href="/login.php?lang=ru">ru</a> <a href="/login.php?lang=eng">eng</a></p>	
+	</div>	
+	<form method="POST" class="form_check form_style">
+		<p style="font-size: 200%; text-align: center;"><?=TITLE_auth?></p>
+		<p class="rline">
+			<?=label_login_auth?><input name="login" type="login" class="rfield" id="user_login">
+		</p>
+		<p class="rline">
+			<?=label_pass_auth?><input name="password" type="password" class="rfield" id="user_pass">
+		</p>
+		<input name="submit" type="submit" value="<?=button_sign?>" class="btnsubmit">
+	</form>
+</div>

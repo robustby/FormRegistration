@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Тестовое задание</title>
+<link rel="stylesheet" type="text/css" href="templates/css/style.css">
+</head>
+<body>
+	<div class="form">
+		<div class="lang" style="p{margin: 0;}">
+		<p>Language: <a href="/index.php?lang=ru">ru</a> <a href="/index.php?lang=eng">eng</a></p>	
+		</div>		
+		<p style="font-size: 200%; text-align: center;"> <?=TITLE?></p>
+		<p><a href="/register.php?lang=<?=$lang?>"><?=ANSWER_no?></a> <a href="/login.php?lang=<?=$lang?>"><?=ANSWER_yes?></a></p>
+	</div>
+</body>
+</html>

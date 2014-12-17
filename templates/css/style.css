@@ -1,0 +1,108 @@
+html{
+	background: url(../images/bg.jpg);
+	color: white;
+}
+h2{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin-top: 0;
+}
+a{
+text-decoration: none;
+color: #044207;
+padding: 10px;
+margin-left: 100px;
+}
+a:hover{
+	background: #BC99E3;
+	border-radius: 10px;
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+}
+.lang{
+	background: #6D6D6D;
+	width: 100%;
+}
+
+.form{
+	background-color: gray;
+	width: 400px;
+	min-height: 200px;
+	margin: 20% auto;
+	padding: 10px 40px 10px 40px;
+	border-radius: 10px;
+}
+.form_style .rcheck{
+	margin-bottom: 10px
+}
+.form_style input[type="login"]{
+	display: block;
+	border: 2px solid #cfcfcf;
+	font-size: 14px;
+	color: #444444;
+	padding: 7px 7px 8px;
+	width: 250px;
+}
+.form_style input[type="password"]{
+	display: block;
+	border: 2px solid #cfcfcf;
+	font-size: 14px;
+	color: #444444;
+	padding: 7px 7px 8px;
+	width: 250px;
+}
+.form_style input:focus{
+	outline: none;
+	border-color: #07a6e6;
+}
+.form_style .btnsubmit{
+	border: none;
+	width: 180px;
+	text-align: center;
+	background: #07a6e6;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	cursor: pointer;
+	height: 35px;
+	line-height: 28px;
+	padding: 0;
+}
+.form_style input.rf_error{
+	border-color: #d8512d;
+}
+.form_style .rfield_error{
+	display: block;
+	padding: 0px 10px;
+	background-color: #d8512d;
+	color: #fff;
+	font-size: 12px;
+	z-index: 1;
+	position: absolute;
+	top: 25px;
+	left: auto;
+	right: 32px;
+	visibility: hidden;
+}
+.form_style .rcheck .rfield_error{
+	top: 0px;
+	left: 22px;
+	right: auto;
+}
+.form_style .btnsubmit:hover{
+	background: #009ac2;
+}
+.form_style .btnsubmit:active{
+	box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+	outline: none;
+}
+.form_style .btnsubmit:focus{
+	outline: none;
+}
+.form_style .btnsubmit.disabled,
+.form_style .btnsubmit.disabled:hover{
+	background: #afdde6;
+	cursor: default;
+}
